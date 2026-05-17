@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    color: #222;
+}
+
+.home {
+    background: linear-gradient(135deg, #7b1e1e, #111827);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card, .form-box, .container {
+    background: white;
+    padding: 28px;
+    border-radius: 14px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+}
+
+.card {
+    width: 430px;
+    text-align: center;
+}
+
+.form-box {
+    width: 420px;
+    margin: 60px auto;
+}
+
+
+.wide {
+    width: 620px;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 12px;
+    margin: 9px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+}
+
+
+textarea {
+    min-height: 120px;
+}
+
+button, .btn {
+    display: inline-block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #7b1e1e;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.secondary {
+    background: #111827;
+}
+
+nav {
+    background: #7b1e1e;
+    color: white;
+    padding: 15px 30px;
+}
+
+nav a {
+    color: white;
+    margin-left: 18px;
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+    margin: 30px auto;
+}
+
+.stats {
+    display: flex;
+    gap: 18px;
+    margin: 20px 0;
+}
+
+.stats div {
+    flex: 1;
+    background: #f8eaea;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.stats strong {
+    display: block;
+    font-size: 32px;
+    margin-top: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    padding: 13px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background: #111827;
+    color: white;
+}
+
+select:invalid {
+  color: gray;
+}
+
+select option {
+  color: black;
+}
+
+.msg {
+    color: #7b1e1e;
+    font-weight: bold;
+}
+
+.danger {
+    color: #b91c1c;
+}
+
+.danger-btn {
+    background: #b91c1c;
+}
+
+.detail-card {
+    background: #fff7f7;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+
+.form-panel {
+    background: #fff7f7;
+    padding: 18px;
+    border-radius: 12px;
+    margin: 20px 0;
+}
+
+.inline-form {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.inline-form select {
+    margin: 0;
+    min-width: 130px;
+}
+
+.inline-form button {
+    width: auto;
+    padding: 10px 16px;
+    margin: 0;
+}
+
+td {
+    max-width: 240px;
+    word-wrap: break-word;
+}
